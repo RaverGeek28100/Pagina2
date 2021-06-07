@@ -1,0 +1,131 @@
+
+
+
+.contenedor{
+    width: 330px;
+    height: 330px;
+    background-color: rgb(9, 89, 95);
+    position: relative;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+ display: block;
+}
+
+.contenedor__paraimagen{
+
+background-color: rgb(0, 255, 191);
+
+width: 330px;
+height: 330px; /* height: 270px; */
+
+
+overflow: hidden;
+
+transition-duration: .5s;
+transition-property: height;
+
+}
+
+.contenedor__des{
+
+width: 330px;
+height: 0px; /* 60px */
+background-color: rgb(8, 107, 94);
+transition-duration: .5s;
+transition-property: height;
+position: relative;
+
+
+}
+
+.contenedor__des-text{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    
+    }
+    .contenedor__paraimagen-imagen{
+         display: block;
+         margin: 70px auto ; /* 40 */
+
+        margin-top: 0%;
+        object-fit: contain;
+        transition-duration: .5s;
+        transition-property: margin;
+
+    }
+    .contenedor__des-link {
+      font-size: 11px;
+      text-decoration: none;
+
+      font-family: Montserrat;
+      text-align: center;
+      
+      height: 30px;
+      color: #ffffff;
+      float: bottom;
+      position: relative;
+      
+      
+      top: 11px;
+      background-color: rgb(88, 10, 88);
+     
+
+    }
+
+
+    .contenedor:hover .contenedor__paraimagen {
+
+height: 270px;
+
+    }
+
+  .contenedor:hover .contenedor__des {
+
+
+    height: 60px;
+  }
+
+
+  .contenedor:hover .contenedor__paraimagen-imagen{
+
+    margin-top: -30px;
+  }
+
+
+  .contenedor2{
+    
+
+position: relative;
+margin: 30px;
+
+
+  }
+.contenedor2_input-form{   /*tamaño formulario */
+outline-color: rgb(255, 0, 234);
+width: 0px;
+transition-duration: .5s;
+transition-property: width;
+}
+
+.contenedor2_input-form::placeholder {     /* esto es un pseudoelemento */
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 0, 191);
+letter-spacing: 2px; /* tracking de texto */
+
+
+}
+
+
+.contenedor2:hover .contenedor2_input-form {
+
+  width: 330px;
+
+}
+
+
+
